@@ -1,0 +1,19 @@
+[
+    {
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2020,
+      "mileage": 25000,
+      "price": 25000,
+      "image": "images/toyota-camry.jpg" 
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2021,
+      "mileage": 15000,
+      "price": 20000,
+      "image": "images/honda-civic.jpg" 
+    },
+    // Add more cars here...
+  ]
