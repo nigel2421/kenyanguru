@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="zxx">
-
-
-<!-- Mirrored from themeforest.kreativdev.com/furious/demo/car-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Aug 2024 14:58:24 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,6 +33,31 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <style>
+        body {
+            margin: 20px; /* Adjust margin size as needed */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center content vertically */
+        }
+
+        .car-details-area .row {
+            display: flex;
+            flex-direction: column; /* Arrange content vertically */
+        }
+
+        .car-details-area .col-lg-9, .car-details-area .col-lg-3 {
+            width: 100%; /* Full width for both columns */
+        }
+
+        .car-details-sidebar {
+            display: none; /* Hide the sidebar */
+        }
+
+        .container {
+            max-width: 1200px; /* Adjust maximum container width as needed */
+        }
+    </style>
 </head>
 
 <body class="theme-color-1">
@@ -58,21 +80,40 @@
     <!-- Header-area start -->
     <header class="header-area header-1" data-aos="slide-down">
         <!-- Start mobile menu -->
-       
+        <div class="mobile-menu">
+            <div class="container">
+                <div class="mobile-menu-wrapper"></div>
+            </div>
+        </div>
         <!-- End mobile menu -->
 
-       
+        <div class="main-responsive-nav">
+            <div class="container">
+                <!-- Mobile Logo -->
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo/logo-1.png" alt="logo">
+                    </a>
+                </div>
+                <!-- Menu toggle button -->
+                <button class="menu-toggler" type="button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
         <div class="main-navbar">
             <div class="container">
                 <nav class="navbar navbar-expand-lg">
                     <!-- Logo -->
-                   
+
                     <!-- Navigation items -->
-                    
+
                     <div class="more-option mobile-item">
                         <div class="item">
-                           
-                       
+                        </div>
                     </div>
                 </nav>
             </div>
@@ -84,7 +125,7 @@
     <div class="page-title-area pb-100 bg-img bg-s-cover" data-bg-image="assets/images/page-title-bg-4.jpg">
         <div class="container">
             <div class="content">
-                <h2>Mazda</h2>               
+                <h2>Mazda</h2>
             </div>
         </div>
     </div>
@@ -132,7 +173,7 @@
                                 </div>
                             </div>
                         </div>
-        
+
                         <div class="product-thumb">
                             <div class="swiper slider-thumbnails">
                                 <div class="swiper-wrapper">
@@ -162,7 +203,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                     <div class="product-single-details">
@@ -178,9 +219,6 @@
                                     <span class="old-price h4 color-medium">*</span>
                                 </div>
                                 <div class="author mb-20">
-                                    
-                                    
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -191,13 +229,13 @@
                                 <div class="product-desc pt-40" data-aos="fade-up">
                                     <h4 class="mb-20">Car Description</h4>
                                     <p>
-                                        This stylish and sophisticated 2017 Mazda Axela is a head-turner. Its sleek lines and vibrant red paint job exude confidence and sportiness, while its spacious interior offers a comfortable and refined driving experience..
+                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
                                     </p>
                                     <p>
                                         There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat.
                                     </p>
                                 </div>
-        
+
                                 <!-- Product feature -->
                                 <div class="product-featured pt-60" data-aos="fade-up">
                                     <h4 class="mb-20">Car Features</h4>
@@ -206,7 +244,7 @@
                                             <span><i class="ico-car-seat"></i> 5 Seats</span>
                                         </li>
                                         <li class="font-lg">
-                                            <span><i class="ico-travel-luggage"></i> Big Boot</span>
+                                            <span><i class="ico-travel-luggage"></i> 6 Bags</span>
                                         </li>
                                         <li class="font-lg">
                                             <span><i class="ico-car-door"></i> 4 Doors</span>
@@ -216,18 +254,18 @@
                                         </li>
                                     </ul>
                                 </div>
-        
+
                                 <!-- Product specification -->
                                 <div class="product-spec pt-60" data-aos="fade-up">
                                     <h4 class="mb-20">Car Specification</h4>
                                     <div class="row">
                                         <div class="col-lg-3 col-sm-6 col-md-4 mb-20">
                                             <h6 class="mb-1">Car Company</h6>
-                                            <span>Mazda</span>
+                                            <span>Nissan</span>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-md-4 mb-20">
                                             <h6 class="mb-1">Car Model</h6>
-                                            <span>Axela</span>
+                                            <span>Sports XTrial 22</span>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-md-4 mb-20">
                                             <h6 class="mb-1">Made Date</h6>
@@ -235,11 +273,11 @@
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-md-4 mb-20">
                                             <h6 class="mb-1">Mileage</h6>
-                                            <span>150,556 Km</span>
+                                            <span>150,556</span>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-md-4 mb-20">
-                                            <h6 class="mb-1">Number Plate</h6>
-                                            <span>KAA 400 Q</span>
+                                            <h6 class="mb-1">Car Company</h6>
+                                            <span>Nissan</span>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-md-4 mb-20">
                                             <h6 class="mb-1">VIN</h6>
@@ -247,11 +285,11 @@
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-md-4 mb-20">
                                             <h6 class="mb-1">Version</h6>
-                                            <span>Second Generation</span>
+                                            <span>Sports V2</span>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-md-4 mb-20">
-                                            <h6 class="mb-1">Fuel Type</h6>
-                                            <span>Petrol</span>
+                                            <h6 class="mb-1">Horsepower</h6>
+                                            <span>300</span>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-md-4 mb-20">
                                             <h6 class="mb-1">Transmission</h6>
@@ -262,36 +300,32 @@
                                             <span>Imported</span>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-md-4 mb-20">
-                                            <h6 class="mb-1">Drive Train</h6>
+                                            <h6 class="mb-1">Driver</h6>
                                             <span>Expert</span>
                                         </div>
                                         <div class="col-lg-3 col-sm-6 col-md-4 mb-20">
-                                            <h6 class="mb-1">Color</h6>
-                                            <span>Red</span>
+                                            <h6 class="mb-1">Warranty</h6>
+                                            <span>Yes</span>
                                         </div>
                                     </div>
                                 </div>
 
                                 <!-- Product policy -->
                                 <div class="product-policy pt-40" data-aos="fade-up">
-                                    <h3 class="pb-20">Features and Amenities:</h3>
-                                    <!--
+                                    <h3 class="pb-20">Cars Rules and Policies</h3>
                                     <h4 class="title mt-20">Check In - Check Out</h4>
                                     <p>Praesent lectus facilisi tempor <b>11:30 am</b> arcu pharetra non tellus.
                                         Torquent nisl
                                         tempor Magnis <b>12:00 pm</b> lobortis nam, montes ut, consequat sed amet
                                         nullam.</p>
-                                        
-                                    <h4 class="title mt-30 pb-10">Features and Amenities:</h4>
-                                    <h6>______</h6>
-                                -->
+
+                                    <h4 class="title mt-30 pb-10">Car Policies</h4>
+                                    <h6>Guarantee Policy:</h6>
                                     <ul class="policy-list list-unstyled mb-30">
-                                        <li><b>Audio System:</b> Radio, CD player, Bluetooth, navigation, etc.</li>
-                                        <li><b>Climate Control:</b> Air conditioning, heated seats, etc.</li>
-                                        <li><b>Technology Features:</b> Backup camera, blind spot monitoring, lane departure warning, etc.</li>
-                                        <li><b>Convenience Features:</b> Power windows, power locks, sunroof, etc.</li>
+                                        <li>facilisi tempor arcu pharetra non tellus consequat sed amet nullam</li>
+                                        <li>Torquent nisl tempor Magnis lobortis Praesent lectus facilisi </li>
+                                        <li>nam, montes ut, consequat sed amet nullam</li>
                                     </ul>
-                                    <!--
                                     <h6>Cancellation Policy:</h6>
                                     <ul class="policy-list list-unstyled">
                                         <li>Cras ultricies ligula sed magna dictum porta. Nulla quis lorem ut libero
@@ -299,20 +333,16 @@
                                         <li>Quisque velit nisi, pretium ut lacinia in, elementum id enim.</li>
                                         <li>nam, montes ut, consequat sed amet nullam</li>
                                     </ul>
-                                    -->
                                 </div>
                             </div>
                         </div>
 
-                       
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- car-details-area start -->
-
-
 
     <!-- Go to Top -->
     <div class="go-top"><i class="fal fa-angle-up"></i></div>
@@ -342,6 +372,4 @@
     <script src="assets/js/script.js"></script>
 </body>
 
-
-<!-- Mirrored from themeforest.kreativdev.com/furious/demo/car-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Aug 2024 14:58:26 GMT -->
 </html>
